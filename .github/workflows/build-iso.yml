@@ -50,3 +50,8 @@ jobs:
             ./output_zip/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # You don't need to add this in secrets it's by default.
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2.3.1
+        with:
+          path: ./output_zip/
+        
