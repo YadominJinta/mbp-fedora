@@ -103,4 +103,4 @@ chmod +x ${INSTALL_ROOT}/lib/systemd/system-sleep/rmmod_tb.sh
 
 %end
 
-%include fedora-kde-common.ks
+%include fedora-live-kde.ks
